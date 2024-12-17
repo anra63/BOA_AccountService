@@ -1,0 +1,129 @@
+2024-12-16 10:10:57 [restartedMain] INFO  com.example.BOA_AccountService.BoaAccountServiceApplication - Starting BoaAccountServiceApplication using Java 17.0.12 with PID 37748 (C:\Users\anura\OneDrive\Desktop\Ram\mytest\BOA_AccountService\build\classes\java\main started by anura in C:\Users\anura\OneDrive\Desktop\Ram\mytest\BOA_AccountService)
+2024-12-16 10:10:57 [restartedMain] INFO  com.example.BOA_AccountService.BoaAccountServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-16 10:10:57 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-16 10:10:57 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-16 10:10:59 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-16 10:10:59 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interface.
+2024-12-16 10:11:01 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-16 10:11:01 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 10:11:01 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 10:11:01 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-16 10:11:01 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 10:11:01 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3866 ms
+2024-12-16 10:11:43 [restartedMain] INFO  com.example.BOA_AccountService.BoaAccountServiceApplication - Starting BoaAccountServiceApplication using Java 17.0.12 with PID 33616 (C:\Users\anura\OneDrive\Desktop\Ram\mytest\BOA_AccountService\build\classes\java\main started by anura in C:\Users\anura\OneDrive\Desktop\Ram\mytest\BOA_AccountService)
+2024-12-16 10:11:43 [restartedMain] INFO  com.example.BOA_AccountService.BoaAccountServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-16 10:11:43 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-16 10:11:43 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-16 10:11:44 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-16 10:11:45 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-12-16 10:11:45 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-16 10:11:45 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 10:11:45 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 10:11:45 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-16 10:11:46 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 10:11:46 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2379 ms
+2024-12-16 10:11:46 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-16 10:11:46 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-16 10:11:46 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-16 10:11:47 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-16 10:11:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-16 10:11:47 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d349b98
+2024-12-16 10:11:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-16 10:11:47 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-16 10:11:47 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-16 10:11:47 [restartedMain] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-16 10:11:48 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-16 10:11:48 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table user_accounts (
+        account_id bigint not null auto_increment,
+        account_type varchar(255),
+        balance float(53),
+        user_id bigint,
+        primary key (account_id)
+    ) engine=InnoDB
+2024-12-16 10:11:48 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-16 10:11:49 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-16 10:11:49 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 10:11:49 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 10:11:49 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-16 10:11:49 [restartedMain] INFO  com.example.BOA_AccountService.BoaAccountServiceApplication - Started BoaAccountServiceApplication in 6.673 seconds (process running for 7.699)
+2024-12-16 10:14:34 [http-nio-8080-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 10:14:34 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-16 10:14:34 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-16 10:14:34 [http-nio-8080-exec-4] INFO  com.example.BOA_AccountService.Services.AccountServiceImpl - Creating new account for user: 1
+2024-12-16 10:14:34 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    /* insert for
+        com.example.BOA_AccountService.Model.Account */insert 
+    into
+        user_accounts (account_type, balance, user_id) 
+    values
+        (?, ?, ?)
+2024-12-16 10:14:35 [http-nio-8080-exec-4] INFO  com.example.BOA_AccountService.Services.AccountServiceImpl - Created new account with ID: 1
+2024-12-16 10:21:50 [http-nio-8080-exec-5] INFO  com.example.BOA_AccountService.Services.AccountServiceImpl - Fetching all accounts
+2024-12-16 10:21:50 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        a1_0.account_id,
+        a1_0.account_type,
+        a1_0.balance,
+        a1_0.user_id 
+    from
+        user_accounts a1_0
+2024-12-16 10:22:35 [http-nio-8080-exec-8] INFO  com.example.BOA_AccountService.Services.AccountServiceImpl - Fetching all accounts
+2024-12-16 10:22:35 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        a1_0.account_id,
+        a1_0.account_type,
+        a1_0.balance,
+        a1_0.user_id 
+    from
+        user_accounts a1_0
+2024-12-16 10:27:16 [http-nio-8080-exec-1] INFO  com.example.BOA_AccountService.Services.AccountServiceImpl - Attempting to update account with ID: 1
+2024-12-16 10:27:16 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        a1_0.account_id,
+        a1_0.account_type,
+        a1_0.balance,
+        a1_0.user_id 
+    from
+        user_accounts a1_0 
+    where
+        a1_0.account_id=?
+2024-12-16 10:27:16 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* update
+        for com.example.BOA_AccountService.Model.Account */update user_accounts 
+    set
+        account_type=?,
+        balance=?,
+        user_id=? 
+    where
+        account_id=?
+2024-12-16 10:27:16 [http-nio-8080-exec-1] INFO  com.example.BOA_AccountService.Services.AccountServiceImpl - Account with ID: 1 updated successfully
+2024-12-16 10:27:54 [http-nio-8080-exec-4] INFO  com.example.BOA_AccountService.Services.AccountServiceImpl - Fetching accounts for user ID: 1
+2024-12-16 10:27:54 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        a1_0.account_id,
+        a1_0.account_type,
+        a1_0.balance,
+        a1_0.user_id 
+    from
+        user_accounts a1_0 
+    where
+        a1_0.user_id=?
+2024-12-16 10:28:05 [http-nio-8080-exec-3] INFO  com.example.BOA_AccountService.Services.AccountServiceImpl - Fetching accounts for user ID: 1
+2024-12-16 10:28:05 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        a1_0.account_id,
+        a1_0.account_type,
+        a1_0.balance,
+        a1_0.user_id 
+    from
+        user_accounts a1_0 
+    where
+        a1_0.user_id=?
