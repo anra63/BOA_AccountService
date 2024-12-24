@@ -1,5 +1,8 @@
 package com.example.BOA_AccountService.Services;
 
+
+
+import com.BOA_UserManagement.Model.User;
 import com.example.BOA_AccountService.Model.Account;
 import com.example.BOA_AccountService.Repositories.AccountRepository;
 import com.example.BOA_AccountService.Services.Interfaces.AccountService;
@@ -7,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,15 +20,27 @@ import java.util.Optional;
 public class AccountServiceImpl implements AccountService {
 
     private final AccountRepository accountRepository;
+    private final RestTemplate restTemplate; // Injecting RestTemplate
     private static final Logger logger = LogManager.getLogger(AccountServiceImpl.class);
 
     // 1. Create Account
     @Override
     public Account createAccount(Account account) {
         logger.info("Creating new account for user: {}", account.getUserId());
-        Account createdAccount = accountRepository.save(account);
-        logger.info("Created new account with ID: {}", createdAccount.getAccountId());
-        return createdAccount;
+
+        // Fetch User details from User Service using RestTemplate
+        String userUrl = "http://localhost:8083/users/" + account.getUserId();  // Assuming UserService runs at this URL
+        User user = restTemplate.getForObject(userUrl, User.class);
+
+        if (user != null) {
+            logger.info("User found: {}", user);
+            Account createdAccount = accountRepository.save(account);
+            logger.info("Created new account with ID: {}", createdAccount.getAccountId());
+            return createdAccount;
+        } else {
+            logger.error("User with ID: {} not found, cannot create account", account.getUserId());
+            return null;
+        }
     }
 
     // 2. Update Account

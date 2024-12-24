@@ -1,1 +1,4 @@
 rootProject.name = 'BOA_AccountService'
+include(":BOA_UserManagement")
+
+project(":BOA_UserManagement").projectDir = new File("../BOA_UserManagements")
